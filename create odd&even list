@@ -1,0 +1,12 @@
+a=[]
+even=[]
+odd=[]
+size=int(input("enter the size"))
+for x in range(0,size):
+    x=int(input("enter elements"))
+    if x%2==0:
+        even.append(x)
+        print("even numbers=",even)
+    elif x%2!=0:
+        odd.append(x)
+        print("odd numbers=",odd)
