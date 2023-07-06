@@ -1,0 +1,22 @@
+def sub(x,y):
+    c=x-y
+    return c
+def add(x,y):
+    c=x+y
+    return c
+def mul(x,y):
+    c=x*y
+    return c
+def div(x,y):
+    c=x/y
+    return c
+n1=int(input("enter the number:"))
+n2=int(input("enter the number:"))
+res=sub(n1,n2)
+print(res)
+res=add(n1,n2)
+print(res)
+res=mul(n1,n2)
+print(res)
+res=div(n1,n2)
+print(res)
